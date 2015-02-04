@@ -145,9 +145,7 @@ h5, h6{
 
 /*Download Links & Buttons & inputs */
 
-.download_a,
-.button,
-button {
+.button{
 	background: rgba(22, 129, 249,0.8);
 	border: 0px none;
 	border-bottom: 4px solid rgba(0,0,0,0.4);
@@ -166,14 +164,12 @@ button {
 	padding: 8px;
 }
 
-.download_a:hover,
 .button:hover {
 	background:rgba(22, 129, 249,1);
 	border-bottom: 4px solid rgba(0,0,0,0.4);
 	text-decoration: none;
 }
 
-/* End of input */
 .content-inner{
 	margin: 0 auto;
 	width: 100%;
