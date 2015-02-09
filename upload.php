@@ -14,7 +14,7 @@
 	    	$errors[]='File size grater than 1 MB';
 	    }				
 	    if(empty($errors)==true){
-	    	move_uploaded_file($file_tmp,"images/".$file_name);
+	    //	move_uploaded_file($file_tmp,"images/".$file_name);
 	    }else{
 	        $myfile = fopen("log.txt", "w") or die("Unable to open file!");
 			$txt = implode("\n", $errors);
